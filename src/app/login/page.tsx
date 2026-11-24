@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
@@ -35,9 +36,9 @@ export default function LoginPage() {
     <div className="min-h-screen flex items-center justify-center bg-[#0e0e10] px-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-10">
-          <a href="/" className="text-2xl font-black tracking-tighter text-[#bb00fc] font-headline uppercase drop-shadow-[0_0_8px_rgba(187,0,252,0.4)]">
+          <Link href="/" className="text-2xl font-black tracking-tighter text-[#bb00fc] font-headline uppercase drop-shadow-[0_0_8px_rgba(187,0,252,0.4)]">
             Complexa IA
-          </a>
+          </Link>
           <p className="text-[#adaaad] mt-2 text-sm font-body">Panel de administración</p>
         </div>
 

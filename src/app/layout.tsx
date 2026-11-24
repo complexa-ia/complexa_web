@@ -5,7 +5,7 @@ import { Providers } from "./providers";
 export const metadata: Metadata = {
   title: "Complexa IA | El Futuro se Construye",
   description:
-    "Desbloqueamos el potencial latente de su empresa mediante arquitecturas de IA personalizadas y flujos de trabajo autónomos.",
+    "Configuramos herramientas de inteligencia artificial y construimos los flujos que las conectan con la operación diaria de su empresa.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

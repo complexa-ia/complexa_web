@@ -52,9 +52,9 @@ export function HeroSection() {
           </div>
 
           <p className="font-body text-[#adaaad] max-w-2xl text-lg leading-relaxed">
-            Desbloqueamos el potencial latente de su empresa mediante arquitecturas
-            de IA personalizadas y flujos de trabajo autónomos que redefinen la
-            eficiencia operativa.
+            Configuramos las herramientas de inteligencia artificial que su empresa
+            elija y construimos los flujos que las conectan con su operación diaria,
+            para que su equipo dedique menos tiempo a tareas repetitivas.
           </p>
         </div>
       </div>

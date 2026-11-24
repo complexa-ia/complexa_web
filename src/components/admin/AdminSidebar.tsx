@@ -17,9 +17,9 @@ export function AdminSidebar() {
   return (
     <aside className="fixed left-0 top-0 h-full w-64 bg-[#131316] border-r border-[#bb00fc]/10 flex flex-col">
       <div className="p-6 border-b border-[#bb00fc]/10">
-        <a href="/" className="text-lg font-black tracking-tighter text-[#bb00fc] font-headline uppercase">
+        <Link href="/" className="text-lg font-black tracking-tighter text-[#bb00fc] font-headline uppercase">
           Complexa IA
-        </a>
+        </Link>
         <p className="text-[#767578] text-xs mt-1 font-body">Admin Panel</p>
       </div>
 

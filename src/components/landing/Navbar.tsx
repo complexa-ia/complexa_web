@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useTheme } from "@/components/ThemeProvider";
 
 export function Navbar() {
@@ -8,11 +9,11 @@ export function Navbar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-[#0e0e10]/60 backdrop-blur-xl shadow-[0_4px_30px_rgba(0,0,0,0.1)] dark:bg-[#0e0e10]/60 light:bg-white/80">
       <div className="flex justify-between items-center max-w-7xl mx-auto px-6 h-20">
-        <a href="/" className="flex items-center gap-2 transition-all duration-300 hover:scale-105 active:scale-95">
+        <Link href="/" className="flex items-center gap-2 transition-all duration-300 hover:scale-105 active:scale-95">
           <span className="text-2xl font-black tracking-tighter text-[#bb00fc] drop-shadow-[0_0_8px_rgba(187,0,252,0.4)] font-headline uppercase">
             Complexa IA
           </span>
-        </a>
+        </Link>
 
         <div className="hidden md:flex items-center gap-8">
           {[

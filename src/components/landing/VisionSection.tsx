@@ -27,20 +27,20 @@ export function VisionSection() {
               En Complexa IA creemos que el tiempo de un empresario vale demasiado
               para gastarlo en tareas que una máquina puede resolver mejor. Cargar
               datos, responder siempre las mismas consultas, armar reportes,
-              perseguir facturas: todo eso tiene solución.
+              perseguir facturas: todo eso se puede simplificar.
             </p>
             <p>
-              Nuestro compromiso es simple: detectar cada proceso repetitivo y
-              tedioso del negocio y automatizarlo de punta a punta, con tecnología
-              que se adapta a la empresa y no al revés. Para que el empresario se
-              enfoque en hacer crecer su negocio; del resto nos ocupamos nosotros.
+              Nuestro trabajo es detectar los procesos repetitivos y tediosos del
+              negocio y automatizarlos, con tecnología que se adapta a la empresa y
+              no al revés. Para que el empresario tenga más tiempo para hacer crecer
+              su negocio.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-8 pt-8 text-left">
             <div>
-              <div className="text-2xl font-headline font-bold text-[#fffbfe]">De punta a punta</div>
+              <div className="text-2xl font-headline font-bold text-[#fffbfe]">Paso a paso</div>
               <div className="text-xs uppercase tracking-widest text-[#bb00fc] font-bold">
-                Automatización completa
+                Del diagnóstico a la puesta en marcha
               </div>
             </div>
             <div>

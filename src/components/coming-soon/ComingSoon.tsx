@@ -1,4 +1,5 @@
 import { Footer } from "@/components/landing/Footer";
+import { PrivacidadNota } from "@/components/landing/PrivacidadNota";
 import { CONTACTO, whatsappLink } from "@/lib/site";
 
 const areas = [
@@ -105,6 +106,8 @@ export function ComingSoon() {
               </div>
             ))}
           </div>
+
+          <PrivacidadNota />
 
           <div className="space-y-4 pt-4">
             <p className="font-headline text-sm uppercase tracking-widest text-[#adaaad]">

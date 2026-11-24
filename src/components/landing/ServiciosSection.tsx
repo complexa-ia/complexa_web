@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { PrivacidadNota } from "./PrivacidadNota";
 
 type Servicio = {
   id: string;
@@ -16,8 +17,8 @@ const fallbackServicios: Servicio[] = [
     id: "1",
     nombre: "Software a Medida",
     descripcion:
-      "Desarrollo de ecosistemas digitales robustos. Desde microservicios hasta plataformas empresariales, construimos con el futuro en mente.",
-    features: ["Cloud Native Architecture", "API First Design"],
+      "Sistemas pensados para la forma de trabajar de cada empresa: desde una herramienta interna hasta una plataforma completa, preparados para crecer con el negocio.",
+    features: ["Diseño a medida", "Integración con sus herramientas"],
     icono: "code",
     colorAccent: "#bb00fc",
   },
@@ -25,8 +26,8 @@ const fallbackServicios: Servicio[] = [
     id: "2",
     nombre: "Automatización de Procesos",
     descripcion:
-      "Elimine cuellos de botella mediante RPA e integración inteligente. Devolvemos el tiempo a su equipo para lo que realmente importa.",
-    features: ["Intelligent RPA", "Workflow Orchestration"],
+      "Conectamos sus herramientas y automatizamos tareas manuales para reducir cuellos de botella y liberar tiempo de su equipo para lo que realmente importa.",
+    features: ["Integración entre sistemas", "Flujos automatizados"],
     icono: "settings_suggest",
     colorAccent: "#00eefc",
   },
@@ -34,8 +35,8 @@ const fallbackServicios: Servicio[] = [
     id: "3",
     nombre: "Consultoría en IA",
     descripcion:
-      "Estrategia de datos y despliegue de modelos LLM personalizados. Transformamos datos brutos en decisiones inteligentes en tiempo real.",
-    features: ["LLM Customization", "Neural Insights"],
+      "Elegimos y configuramos la IA adecuada para cada problema y la conectamos con la información de su empresa para apoyar la toma de decisiones.",
+    features: ["Selección de modelos", "Configuración a medida"],
     icono: "psychology",
     colorAccent: "#ff6b98",
   },
@@ -43,8 +44,8 @@ const fallbackServicios: Servicio[] = [
     id: "4",
     nombre: "Servicios de Ciberseguridad",
     descripcion:
-      "Protección proactiva contra amenazas digitales. Blindamos sus activos de IA y datos críticos con protocolos de seguridad de grado militar.",
-    features: ["Threat Neutralization", "AI Integrity Audit"],
+      "Aplicamos buenas prácticas de seguridad en cada sistema que construimos: control de accesos, manejo cuidadoso de credenciales y revisión de riesgos antes de automatizar.",
+    features: ["Revisión de riesgos", "Control de accesos"],
     icono: "security",
     colorAccent: "#d73357",
   },
@@ -71,7 +72,7 @@ export function ServiciosSection() {
             <div className="h-1 w-24 bg-[#00eefc] shadow-[0_0_10px_rgba(0,238,252,0.5)]" />
           </div>
           <p className="font-body text-[#adaaad] max-w-md">
-            Soluciones de ingeniería diseñadas para la escalabilidad masiva y la precisión técnica.
+            Soluciones de ingeniería pensadas para crecer junto con su negocio.
           </p>
         </div>
 
@@ -118,6 +119,8 @@ export function ServiciosSection() {
             </div>
           ))}
         </div>
+
+        <PrivacidadNota />
       </div>
     </section>
   );
